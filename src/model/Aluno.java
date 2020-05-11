@@ -9,6 +9,11 @@ public class Aluno {
     private String nomeMae;
     private String nomePai;
     private String dataMatricula;
+    private double nota1;
+    private double nota2;
+    private double nota3;
+    private double nota4;
+
 
     public Aluno() {
 //        Construtor do Java por The Full;
@@ -29,6 +34,15 @@ public class Aluno {
 
     public Aluno setNome(String nome) {
         this.nome = nome;
+        return this;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public Aluno setIdade(int idade) {
+        this.idade = idade;
         return this;
     }
 
@@ -77,4 +91,57 @@ public class Aluno {
         return this;
     }
 
+    public double getNota1() {
+        return nota1;
+    }
+
+    public Aluno setNota1(double nota1) {
+        this.nota1 = nota1;
+        return this;
+    }
+
+    public double getNota2() {
+        return nota2;
+    }
+
+    public Aluno setNota2(double nota2) {
+        this.nota2 = nota2;
+        return this;
+    }
+
+    public double getNota3() {
+        return nota3;
+    }
+
+    public Aluno setNota3(double nota3) {
+        this.nota3 = nota3;
+        return this;
+    }
+
+    public double getNota4() {
+        return nota4;
+    }
+
+    public Aluno setNota4(double nota4) {
+        this.nota4 = nota4;
+        return this;
+    }
+
+    public double getMediaNota() {
+        return ((nota1 + nota2 + nota3 + nota4) /4);
+    }
+
+    public boolean getResultado() {
+        double media = this.getMediaNota();
+        if (media >= 7) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+
 }
+
+
