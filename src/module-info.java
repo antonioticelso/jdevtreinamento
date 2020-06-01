@@ -1,2 +1,4 @@
+package src;
+
 module javaDevTreinamento {
 }

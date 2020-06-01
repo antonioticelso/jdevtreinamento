@@ -1,19 +1,26 @@
 package model;
 
-public class Aluno {
+import abstracts.Pessoa;
+import constante.StatusAluno;
 
-    private String nome;
-    private int idade;
-    private String dataNascimento;
-    private String cpf;
-    private String nomeMae;
-    private String nomePai;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Aluno extends Pessoa {
+
+    private String serieMatricculada;
+    private String nomeEscola;
     private String dataMatricula;
-    private double nota1;
-    private double nota2;
-    private double nota3;
-    private double nota4;
 
+    private List<Disciplina> disciplinas = new ArrayList<Disciplina>();
+
+    public void setDisciplinas(List<Disciplina> disciplinas) {
+        this.disciplinas = disciplinas;
+    }
+
+    public List<Disciplina> getDisciplinas() {
+        return disciplinas;
+    }
 
     public Aluno() {
 //        Construtor do Java por The Full;
@@ -28,119 +35,102 @@ public class Aluno {
         idade = idadePadrao;
     }
 
+    @Override
+    public double salario() {
+        return 1500.00;
+    }
+
     public String getNome() {
         return nome;
     }
 
-    public Aluno setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
-        return this;
     }
 
     public int getIdade() {
         return idade;
     }
 
-    public Aluno setIdade(int idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
-        return this;
     }
 
     public String getDataNascimento() {
         return dataNascimento;
     }
 
-    public Aluno setDataNascimento(String dataNascimento) {
+    public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
-        return this;
     }
 
     public String getCpf() {
         return cpf;
     }
 
-    public Aluno setCpf(String cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
-        return this;
     }
 
     public String getNomeMae() {
         return nomeMae;
     }
 
-    public Aluno setNomeMae(String nomeMae) {
+    public void setNomeMae(String nomeMae) {
         this.nomeMae = nomeMae;
-        return this;
     }
 
     public String getNomePai() {
         return nomePai;
     }
 
-    public Aluno setNomePai(String nomePai) {
+    public void setNomePai(String nomePai) {
         this.nomePai = nomePai;
-        return this;
     }
 
     public String getDataMatricula() {
         return dataMatricula;
     }
 
-    public Aluno setDataMatricula(String dataMatricula) {
+    public void setDataMatricula(String dataMatricula) {
         this.dataMatricula = dataMatricula;
-        return this;
-    }
-
-    public double getNota1() {
-        return nota1;
-    }
-
-    public Aluno setNota1(double nota1) {
-        this.nota1 = nota1;
-        return this;
-    }
-
-    public double getNota2() {
-        return nota2;
-    }
-
-    public Aluno setNota2(double nota2) {
-        this.nota2 = nota2;
-        return this;
-    }
-
-    public double getNota3() {
-        return nota3;
-    }
-
-    public Aluno setNota3(double nota3) {
-        this.nota3 = nota3;
-        return this;
-    }
-
-    public double getNota4() {
-        return nota4;
-    }
-
-    public Aluno setNota4(double nota4) {
-        this.nota4 = nota4;
-        return this;
     }
 
     public double getMediaNota() {
-        return ((nota1 + nota2 + nota3 + nota4) /4);
+        double somaNotas = 0;
+        for (Disciplina disciplina : disciplinas) {
+            somaNotas += disciplina.getNota();
+
+        }
+
+        return somaNotas / disciplinas.size();
     }
 
-    public boolean getResultado() {
+    public String getResultado() {
         double media = this.getMediaNota();
-        if (media >= 7) {
-            return true;
+        if (media >= 5) {
+            if (media >=7) {
+                return StatusAluno.APROVADO;
+            } else {
+                return StatusAluno.RECUPERACAO;
+            }
         } else {
-            return false;
+            return StatusAluno.REPROVADO;
         }
     }
 
-
+    public String getAlunoAprovado() {
+        double media = this.getMediaNota();
+        if (media >= 5) {
+            if (media >=7) {
+                return StatusAluno.APROVADO;
+            } else {
+                return StatusAluno.RECUPERACAO;
+            }
+        } else {
+            return StatusAluno.REPROVADO;
+        }
+    }
 
 }
 
