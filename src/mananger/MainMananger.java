@@ -1,13 +1,17 @@
 package mananger;
 
 import constante.StatusAluno;
+import execao.ExecaoProcessarNota;
 import model.Aluno;
 import model.Disciplina;
 
 import javax.swing.*;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 
 public class MainMananger {
 
@@ -15,6 +19,7 @@ public class MainMananger {
         // TODO Auto-generated method stub
 
         try {
+            lerArquivo();
 
             String login = JOptionPane.showInputDialog("Informe o login: ");
             String senha = JOptionPane.showInputDialog("Informe a senha: ");
@@ -122,20 +127,23 @@ public class MainMananger {
             }
 
         } catch (Exception e) {
+            StringBuilder saida = new StringBuilder();
             e.printStackTrace();
 
             System.out.println("Mensagem: " + e.getMessage());
 
             for (int i = 0; i <= e.getStackTrace().length; i ++) {
-                System.out.println("Classe de erro: " + e.getStackTrace()[i].getClassName());
-                System.out.println("Método de erro: " + e.getStackTrace()[i].getMethodName());
-                System.out.println("Linha de erro: " + e.getStackTrace()[i].getLineNumber());
+                saida.append("Classe de erro: " + e.getStackTrace()[i].getClassName());
+                saida.append("Método de erro: " + e.getStackTrace()[i].getMethodName());
+                saida.append("Linha de erro: " + e.getStackTrace()[i].getLineNumber());
+                saida.append("\n Class: " + e.getClass().getName());
 
             }
+            JOptionPane.showMessageDialog(null, "Erro ao processar notas."
+                    + saida.toString());
 
-
-            JOptionPane.showMessageDialog(null, "Erro ao processar notas.");
-
+        } finally {
+            JOptionPane.showMessageDialog(null, "Obrigado pela preferência");
         }
 
 
@@ -219,6 +227,11 @@ public class MainMananger {
 //        System.out.println("A data de nascimento do aluno é "
 //                    + aluno2.getDataNascimento());
 
+    }
+
+    public static void lerArquivo() throws FileNotFoundException {
+            File fil = new File("Lines.txt");
+            Scanner scanner = new Scanner(fil);
     }
 
 

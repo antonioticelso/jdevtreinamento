@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/execao/ExecaoProcessarNota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mananger/MainMananger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mananger/MainMananger.java" afterDir="false" />
     </list>
@@ -76,7 +77,13 @@
       <workItem from="1590576877426" duration="681000" />
       <workItem from="1590670245278" duration="10931000" />
       <workItem from="1590867003293" duration="2680000" />
-      <workItem from="1591033792625" duration="3982000" />
+      <workItem from="1591033792625" duration="4574000" />
+      <workItem from="1591095710713" duration="3692000" />
+      <workItem from="1591120411387" duration="635000" />
+      <workItem from="1591122074155" duration="2184000" />
+      <workItem from="1591193263086" duration="19000" />
+      <workItem from="1591193365514" duration="584000" />
+      <workItem from="1591614421362" duration="3979000" />
     </task>
     <servers />
   </component>
@@ -88,11 +95,11 @@
       <screen x="0" y="27" width="1280" height="997" />
     </state>
     <state x="246" y="172" width="1024" height="852" key="#Project_Structure/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1589219540609" />
-    <state x="544" y="229" width="374" height="649" key="#com.intellij.ide.util.MemberChooser" timestamp="1590691412880">
+    <state x="544" y="229" width="374" height="649" key="#com.intellij.ide.util.MemberChooser" timestamp="1591123420902">
       <screen x="0" y="27" width="1280" height="997" />
     </state>
     <state x="1359" y="240" width="374" height="649" key="#com.intellij.ide.util.MemberChooser/0.27.3200.1053@0.27.3200.1053" timestamp="1590420459670" />
-    <state x="544" y="229" width="547" height="656" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1590691412880" />
+    <state x="544" y="229" width="547" height="656" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1591123420902" />
     <state x="857" y="240" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1590277247524" />
     <state x="479" y="454" width="302" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590671877422">
       <screen x="0" y="27" width="1280" height="997" />
@@ -108,11 +115,11 @@
     <state x="1352" y="323" key="FileChooserDialogImpl/0.27.3200.1053@0.27.3200.1053" timestamp="1590491307620" />
     <state x="519" y="308" width="424" height="491" key="FileChooserDialogImpl/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1588773931669" />
     <state x="2059" y="304" key="FileChooserDialogImpl/1280.0.1920.1080/0.27.1280.997@1280.0.1920.1080" timestamp="1588948246062" />
-    <state x="263" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1591033819170">
-      <screen x="0" y="27" width="1280" height="997" />
+    <state x="451" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1591614466167">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="263" y="336" key="com.intellij.ide.util.TipDialog/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1591033819170" />
-    <state x="451" y="353" key="com.intellij.ide.util.TipDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1590867002111" />
+    <state x="263" y="336" key="com.intellij.ide.util.TipDialog/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1591193364234" />
+    <state x="451" y="353" key="com.intellij.ide.util.TipDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1591614466167" />
     <state x="72" y="132" width="1270" height="855" key="new project wizard" timestamp="1590277669832">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
