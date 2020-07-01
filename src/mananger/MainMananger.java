@@ -89,7 +89,6 @@ public class MainMananger {
                 }
 
 //        Listas por status
-
                 maps.put(StatusAluno.APROVADO, new ArrayList<Aluno>());
                 maps.put(StatusAluno.RECUPERACAO, new ArrayList<Aluno>());
                 maps.put(StatusAluno.REPROVADO, new ArrayList<Aluno>());
@@ -103,7 +102,6 @@ public class MainMananger {
                         maps.get(StatusAluno.REPROVADO);
                     }
                 }
-
 
 //        Listas separadas de Alunos
                 System.out.println("Lista dos Aprovados");
