@@ -2,7 +2,7 @@
 
 ## Java Full-Stack ##
 #### Jornada ####
-aula 9 / modulo 10 - Construtores - OrientacaoObjeto OO
+modulo 13 / aula 3 - Construtores - OrientacaoObjeto OO
 
 
 Curso completo Java Full-Stack da plataforma Java Desenvolvedor Full-Stack.
