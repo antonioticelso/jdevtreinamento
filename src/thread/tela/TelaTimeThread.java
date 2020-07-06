@@ -1,20 +1,27 @@
 package thread.tela;
 
+import thread.ImplementaFilaThread;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class TelaTimeThread extends JDialog {
 
     private JPanel jPanel = new JPanel(new GridBagLayout());
-    private JLabel descricaoHora = new JLabel("Time Theard 1");
+    private JLabel descricaoHora = new JLabel("Nome:");
     private JTextField mostraTempo = new JTextField();
 
-    private JLabel descricaoHora2 = new JLabel("Time Theard 1");
+    private JLabel descricaoHora2 = new JLabel("E-mail:");
     private JTextField mostraTempo2 = new JTextField();
 
-    private JButton jButton = new JButton("Start");
+    private JButton jButton = new JButton("Add Lista");
     private JButton jButton2 = new JButton("Stop");
 
+    private ImplementaFilaThread fila = new ImplementaFilaThread();
 
     public TelaTimeThread() {
 //        Cabeça da Tela
@@ -36,7 +43,7 @@ public class TelaTimeThread extends JDialog {
         jPanel.add(descricaoHora,gridBagConstraints);
 
         mostraTempo.setPreferredSize(new Dimension(200, 25));
-        mostraTempo.setEditable(false);
+//        mostraTempo.setEditable(false);
         gridBagConstraints.gridy ++;
         jPanel.add(mostraTempo,gridBagConstraints);
 
@@ -46,7 +53,7 @@ public class TelaTimeThread extends JDialog {
         jPanel.add(descricaoHora2,gridBagConstraints);
 
         mostraTempo2.setPreferredSize(new Dimension(200, 25));
-        mostraTempo2.setEditable(false);
+//        mostraTempo2.setEditable(false);
         gridBagConstraints.gridy ++;
         jPanel.add(mostraTempo2,gridBagConstraints);
 
@@ -62,8 +69,30 @@ public class TelaTimeThread extends JDialog {
         gridBagConstraints.gridy ++;
         jPanel.add(jButton2, gridBagConstraints);
 
-        add(jPanel, BorderLayout.WEST);
+        jButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+//                jButton.setEnabled(false);
+//                jButton2.setEnabled(true);
+            }
+        });
 
+        jButton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+//                jButton.setEnabled(true);
+//                jButton2.setEnabled(false);
+            }
+        });
+
+//        jButton2.setEnabled(false);
+
+
+
+
+        fila.start();
+
+        add(jPanel, BorderLayout.WEST);
 
 //        Fim da Tela
         setVisible(true);

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/tela/ExecutarTela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/ImplementaFilaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/ObjectFilaThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,8 @@
       <workItem from="1591614421362" duration="10030000" />
       <workItem from="1593598539760" duration="15181000" />
       <workItem from="1593692319480" duration="599000" />
-      <workItem from="1593697822595" duration="3687000" />
+      <workItem from="1593697822595" duration="4669000" />
+      <workItem from="1594048431872" duration="7149000" />
     </task>
     <servers />
   </component>
@@ -104,12 +105,12 @@
       <screen x="0" y="30" width="1280" height="994" />
     </state>
     <state x="98" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/1280.0.1920.1080/0.30.1280.994@0.30.1280.994" timestamp="1593525987041" />
-    <state x="544" y="231" width="374" height="645" key="#com.intellij.ide.util.MemberChooser" timestamp="1593524562991">
+    <state x="544" y="231" width="374" height="645" key="#com.intellij.ide.util.MemberChooser" timestamp="1594061632492">
       <screen x="0" y="30" width="1280" height="994" />
     </state>
     <state x="1359" y="240" width="374" height="649" key="#com.intellij.ide.util.MemberChooser/0.27.3200.1053@0.27.3200.1053" timestamp="1590420459670" />
     <state x="544" y="229" width="547" height="656" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1591123420902" />
-    <state x="544" y="231" width="374" height="645" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.30.1280.994@0.30.1280.994" timestamp="1593524562991" />
+    <state x="544" y="231" width="374" height="645" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.30.1280.994@0.30.1280.994" timestamp="1594061632492" />
     <state x="857" y="240" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1590277247524" />
     <state x="479" y="456" width="306" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593518799815">
       <screen x="0" y="30" width="1280" height="994" />
@@ -141,5 +142,9 @@
       <screen x="0" y="30" width="1280" height="994" />
     </state>
     <state x="349" y="138" width="572" height="751" key="refactoring.ChangeSignatureDialog/1280.0.1920.1080/0.30.1280.994@0.30.1280.994" timestamp="1593524067551" />
+    <state x="82" y="240" key="run.anything.popup" timestamp="1594057984929">
+      <screen x="0" y="30" width="1280" height="994" />
+    </state>
+    <state x="82" y="240" key="run.anything.popup/1280.0.1920.1080/0.30.1280.994@0.30.1280.994" timestamp="1594057984929" />
   </component>
 </project>
