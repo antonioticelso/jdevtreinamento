@@ -1,6 +1,7 @@
 package thread.tela;
 
 import thread.ImplementaFilaThread;
+import thread.ObjectFilaThread;
 
 import javax.swing.*;
 import java.awt.*;
@@ -72,6 +73,21 @@ public class TelaTimeThread extends JDialog {
         jButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                if (fila == null) {
+                    fila = new ImplementaFilaThread();
+                    fila.start();
+                }
+
+
+                for (int qtd = 0; qtd < 100; qtd ++) {
+                    ObjectFilaThread filaThread = new ObjectFilaThread();
+                    filaThread.setNome(mostraTempo.getText());
+                    filaThread.setEmail(mostraTempo2.getText() + " - " + qtd);
+
+                    fila.add(filaThread);
+
+                }
 //                jButton.setEnabled(false);
 //                jButton2.setEnabled(true);
             }
@@ -80,6 +96,8 @@ public class TelaTimeThread extends JDialog {
         jButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+                fila.stop();
+                fila = null;
 //                jButton.setEnabled(true);
 //                jButton2.setEnabled(false);
             }

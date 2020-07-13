@@ -32,6 +32,7 @@ public class ThreadLocal {
             }
         }
     };
+
     private static Runnable thread02 = new Runnable() {
         @Override
         public void run() {
