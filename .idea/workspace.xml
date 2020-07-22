@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jdevtreinamento.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/bin/mananger/MainMananger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/bin/model/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/bin/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/src/mananger/MainMananger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/src/model/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretorioestudos/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdevtreinamento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdevtreinamento.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstracts/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constante/StatusAluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/execao/ExecaoProcessarNota.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/PermitirAcesso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Disciplina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/FuncaoAutenticacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Secretario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ArrayVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Matriz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/SplitArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestandoAlunoDiretorSecretario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestandoPermitirAcesso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/ImplementaFilaThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/ObjectFilaThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/ThreadLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/tela/ExecutarTela.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
