@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/bin/mananger/MainMananger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/bin/model/Aluno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/bin/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/src/mananger/MainMananger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/src/model/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diretorioestudos/src/module-info.java" afterDir="false" />
+    </list>
+>>>>>>> 8f4865879c185b0fd31c687849154024ded91a1e
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bXJ0FJERdrmo2jKusWMZikFetp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/diretorioestudos" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="" />
+      <created>1588772279530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588772279530</updated>
+<<<<<<< HEAD
+      <workItem from="1588772281091" duration="1649000" />
+      <workItem from="1588784785373" duration="1242000" />
+      <workItem from="1588863937860" duration="6698000" />
+      <workItem from="1588948224062" duration="23000" />
+      <workItem from="1589216962142" duration="11346000" />
+      <workItem from="1589288633306" duration="4771000" />
+      <workItem from="1589375104463" duration="18565000" />
+      <workItem from="1589559902573" duration="2037000" />
+      <workItem from="1589803509172" duration="3355000" />
+      <workItem from="1590276197976" duration="6895000" />
+      <workItem from="1590576877426" duration="681000" />
+      <workItem from="1590670245278" duration="10931000" />
+      <workItem from="1590867003293" duration="2680000" />
+      <workItem from="1591033792625" duration="4574000" />
+      <workItem from="1591095710713" duration="3692000" />
+      <workItem from="1591120411387" duration="635000" />
+      <workItem from="1591122074155" duration="2184000" />
+      <workItem from="1591193263086" duration="19000" />
+      <workItem from="1591193365514" duration="584000" />
+      <workItem from="1591614421362" duration="10030000" />
+      <workItem from="1593598539760" duration="15181000" />
+      <workItem from="1593692319480" duration="599000" />
+      <workItem from="1593697822595" duration="4669000" />
+      <workItem from="1594048431872" duration="7521000" />
+      <workItem from="1594122536420" duration="13077000" />
+      <workItem from="1594317664895" duration="1529000" />
+      <workItem from="1594647534780" duration="19000" />
+=======
+      <workItem from="1588772281091" duration="314000" />
+      <workItem from="1594746638383" duration="19000" />
+      <workItem from="1594754398918" duration="467000" />
+      <workItem from="1594754875774" duration="159000" />
+      <workItem from="1594755044954" duration="94000" />
+      <workItem from="1594755151877" duration="717000" />
+      <workItem from="1594755891179" duration="379000" />
+      <workItem from="1594756287387" duration="703000" />
+      <workItem from="1595247510943" duration="442000" />
+>>>>>>> 8f4865879c185b0fd31c687849154024ded91a1e
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="841" y="412" width="216" height="325" key="#Notifications" timestamp="1594754597338">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="841" y="412" width="216" height="325" key="#Notifications/0.30.1920.1050@0.30.1920.1050" timestamp="1594754597338" />
+    <state x="544" y="229" width="374" height="649" key="#com.intellij.ide.util.MemberChooser" timestamp="1588772501910">
+      <screen x="0" y="27" width="1280" height="997" />
+    </state>
+    <state x="544" y="229" width="374" height="649" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1588772501910" />
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl" timestamp="1594755097408">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1594755097408" />
+    <state x="458" y="208" width="992" height="733" key="SettingsEditor" timestamp="1594756309190">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="458" y="208" width="992" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1594756309190" />
+  </component>
+</project>
