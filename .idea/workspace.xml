@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/ImplementaFilaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/ImplementaFilaThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/ThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/ThreadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" afterDir="false" />
-    </list>
+    <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +86,7 @@
       <workItem from="1594048431872" duration="7521000" />
       <workItem from="1594122536420" duration="13077000" />
       <workItem from="1594317664895" duration="1529000" />
+      <workItem from="1594647534780" duration="19000" />
     </task>
     <servers />
   </component>
