@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/bin/mananger/MainMananger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/bin/model/Aluno.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/bin/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/src/mananger/MainMananger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/src/model/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diretorioestudos/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jdevtreinamento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/bin/mananger/MainMananger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/bin/model/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/src/mananger/MainMananger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/src/model/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diretorioestudos/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdevtreinamento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdevtreinamento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstracts/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constante/StatusAluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execao/ExecaoProcessarNota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/PermitirAcesso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Disciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/FuncaoAutenticacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Secretario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ArrayVetor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Matriz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SplitArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestandoAlunoDiretorSecretario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestandoPermitirAcesso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/ImplementaFilaThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/ObjectFilaThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/ThreadLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/tela/ExecutarTela.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/tela/TelaTimeThread.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +56,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoQuarkus" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -66,7 +95,11 @@
       <workItem from="1594755151877" duration="717000" />
       <workItem from="1594755891179" duration="379000" />
       <workItem from="1594756287387" duration="703000" />
-      <workItem from="1595247510943" duration="442000" />
+      <workItem from="1595247510943" duration="564000" />
+      <workItem from="1595248134349" duration="407000" />
+      <workItem from="1595363759677" duration="1595000" />
+      <workItem from="1595385904595" duration="310000" />
+      <workItem from="1595386444273" duration="637000" />
     </task>
     <servers />
   </component>
@@ -85,13 +118,25 @@
       <screen x="0" y="27" width="1280" height="997" />
     </state>
     <state x="544" y="229" width="374" height="649" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.27.1280.997@0.27.1280.997" timestamp="1588772501910" />
-    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl" timestamp="1594755097408">
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl" timestamp="1595387039188">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1594755097408" />
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1595387039188" />
+    <state x="374" y="116" width="1536" height="873" key="MergeDialog" timestamp="1595247951663">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="374" y="116" width="1536" height="873" key="MergeDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595247951663" />
+    <state x="831" y="305" width="728" height="491" key="MultipleFileMergeDialog" timestamp="1595247951701">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="831" y="305" width="728" height="491" key="MultipleFileMergeDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595247951701" />
     <state x="458" y="208" width="992" height="733" key="SettingsEditor" timestamp="1594756309190">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="458" y="208" width="992" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1594756309190" />
+    <state x="964" y="330" width="461" height="440" key="git4idea.merge.GitMergeDialog" timestamp="1595247895488">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="964" y="330" width="461" height="440" key="git4idea.merge.GitMergeDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595247895488" />
   </component>
 </project>
