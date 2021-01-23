@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e92b81d-6faa-4d4d-9b6a-4fd97c5b3b4b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +82,7 @@
       <workItem from="1594317664895" duration="1529000" />
       <workItem from="1594647534780" duration="19000" />
       <workItem from="1594756287387" duration="703000" />
+      <workItem from="1595427043673" duration="854000" />
     </task>
     <servers />
   </component>
@@ -122,5 +121,9 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="964" y="330" width="461" height="440" key="git4idea.merge.GitMergeDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595247895488" />
+    <state x="43" y="178" width="1222" height="841" key="new project wizard" timestamp="1595427875193">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="43" y="178" width="1222" height="841" key="new project wizard/0.30.1920.1050@0.30.1920.1050" timestamp="1595427875193" />
   </component>
 </project>
